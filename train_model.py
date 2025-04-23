@@ -26,3 +26,6 @@ os.makedirs('models', exist_ok=True)
 joblib.dump(vectorizer, 'models/vectorizer.joblib')
 joblib.dump(clf, 'models/classifier.joblib')
 print('Модель и векторизатор сохранены в папке models/')
+
+
+#python train_model.py

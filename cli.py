@@ -18,3 +18,6 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+
+#python cli.py C:\Users\PUNISHER\PycharmProjects\vuln-classifier-prototype\dataset\juliet-test-suite\src\testcases\CWE190_Integer_Overflow\s01\CWE190_Integer_Overflow__int_console_readLine_square_81_bad.java

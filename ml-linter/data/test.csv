@@ -1,0 +1,7 @@
+code,label
+"import pickle; mydata = pickle.load(open(user_file, 'rb'))",1
+import os; os.system('rm -rf /'),1
+func = lambda x: eval(x),1
+user_code = '2+2'; exec(user_code),1
+s = 'Hello'; s = s.lower(),0
+"my_list = [1,2,3]; my_list.append(4)",0

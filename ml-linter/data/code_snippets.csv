@@ -1,0 +1,32 @@
+code,label
+"print('Hello, world!')",0
+"a = [i for i in range(10)]",0
+"def add(a, b): return a + b",0
+"import math; math.sqrt(16)",0
+"data = {'x':1, 'y':2}; print(data['x'])",0
+"with open('file.txt','r') as f: content = f.read()",0
+"for i in range(5): print(i)",0
+"nums = list(map(lambda x: x*2, [1,2,3]))",0
+"s = 'Hello'; s = s.lower()",0
+"my_list = [1,2,3]; my_list.append(4)",0
+"dict_comp = {i: i*i for i in range(5)}",0
+"names = ['Alice','Bob','Carol']; [n.upper() for n in names]",0
+"user = input('Name: '); print(f'Hello {user}')",0
+"import random; print(random.randint(1,10))",0
+"import os; path = os.getcwd()",0
+
+"import os; os.system('rm -rf /')",1
+"code = input('Enter code: '); eval(code)",1
+"user_code = '2+2'; exec(user_code)",1
+"import subprocess; subprocess.Popen(['ls','-la'])",1
+"import subprocess; subprocess.call('ls -la', shell=True)",1
+"import pickle; data = pickle.load(open('dump.pkl','rb'))",1
+"eval(\"__import__('os').system('ls')\")",1
+"exec(\"import os; os.remove('secret.txt')\")",1
+"func = lambda x: eval(x)",1
+"import subprocess; subprocess.call('rm -rf /tmp/*', shell=True)",1
+"import os; os.system(input('cmd: '))",1
+"import subprocess; subprocess.Popen(input('cmd: '), shell=True)",1
+"import pickle; mydata = pickle.load(open(user_file, 'rb'))",1
+"exec(user_code)",1
+"eval(user_input)",1
